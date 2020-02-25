@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Happy Monkey', cursive;
+}
+
+.tictactoe {
+  margin: 70px auto 0;
+  border-collapse: collapse;
+  border: 1px hidden;
+}
+
+h1 {
+  text-align: center;
+  color:	 #ffff1a;
+  font-size: 60px;
+}
+
+.tictactoe td {
+  width: 100px;
+  height: 100px;
+  border: 5px solid black;
+  text-align: center;
+  font-size: 70px;
+}
+
+#winner {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 25px;
+}
+
+#b-reset {
+  padding: 18px;
+  font-size: 20px;
+  background-color: red;
+  color: white;
+  margin-top: 50px;
+  margin-left: 46%;
+  border: none;
+  border-radius: 8px;
+}
